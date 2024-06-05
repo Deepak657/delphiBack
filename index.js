@@ -19,5 +19,5 @@ app.use(
 app.use("/delphi", delphiRoutes);
 
 
-const port = 3001;
+const port = 10000;
 app.listen(port, () => console.log(`Listening on http://localhost:${port}`));
